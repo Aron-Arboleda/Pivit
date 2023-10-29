@@ -1,0 +1,42 @@
+
+Last saved on: Sun Feb 12 16:01:04 2023
+-----------------------------
+ar
+	Name: sige sige
+	Level: 19
+	Experience: 761110
+	Motivation Points: 5100
+	Coins: 382082
+	Achievements: ['bleh', 'geh', 'HAHAHA', 'alskndka', 'asdawd', 'yow ahahha', 'ummm']
+	Tasks: ['done dasd', 'done asldknla', 'undone asdlkan', 'undone AHHAHAHHAHHA', 'undone asldknwl', 'undone lasnda', 'undone asdlknawd', 'undone asdwd', 'undone asdawda', 'undone bleh']
+	Rank: Beginner
+	Pet: ['Llama', 'Golden Retriever', 'Golden Retriever']
+	Weapon: ['Knife']
+	Last Updated on: Thu Jan 19 16:50:38 2023
+-----------------------------
+aron_arboleda
+	Name: Aron Arboleda
+	Level: 23
+	Experience: 5210155
+	Motivation Points: 4880
+	Coins: 247569
+	Achievements: ['Preparatory - Graduating Pre-school', 'Grade 2 - 1st in Poster Making', 'Grade 6 - Journalism (Feature Writing) - 1st in District, 3rd in Municipal', '\t  - Graduating Elementary', 'Grade 9 - 2nd in Math Quiz Bee (School)', '\t    - 1st in MTAP (Municipal)', 'Grade 10 - 3rd in MTAP (Division)', '\t   - 1st in Chess (School)', '\t- 1st in Chess (Municipal)', 'Grade 11 - TOP FUCKING 1 BTCH)', '\t    - WITH HIGH HONORS', 'Grade 12 - GRADUATED WITH HIGHEST HONORS', '- Reaching 100wpm on typing', '- Actually organizing and saving my files on the cloud', '- Making my first even complete song (Vectors and Scalars)', '- Completed 10 books (and still going, update this if u see it)', '- Learned how to be matured and self-aware', '- Being kind and actually making good friends over the years', '- Learning how to actually value and appreciate things truly', '- Keeping a garden alive jeez (some died)', 'Skills', '- Learned sudoku', "- Learned how to solve the Rubik's Cube", '- Learned guitar', '- Learned Chess', '- Learned how to ride a bike', '- Learned video editing', '- Learned photo editing', '- Learned how to actually fucking sing', '- Learned how to make a website', '- Learned how to fucking draw some real shit', '- Learned how to paint', '- Learned how to write, journal and just completely organize my thoughts', '- Learned how to type fast', '- Learned how to cook (getting better and better)', '- Learned math (in some extent)', '- Learned how to code basic and slightly advance text-based programs', '- Learned some basic japanese and korean', '- Learned how to play billards']
+	Tasks: ['done Exercise', 'done Magdilig', 'done Code', 'done Monkeytype', 'done Maghugas', 'done Magkarga']
+	Rank: Swordsman
+	Pet: ['Golden Retriever', 'Sloth']
+	Weapon: ['Knife', 'Bow And Arrow']
+	Last Updated on: Sun Feb 12 16:01:04 2023
+-----------------------------
+Andrea
+	Name: andreas canlas
+	Level: 1
+	Experience: 500
+	Motivation Points: 80
+	Coins: 100
+	Achievements: []
+	Tasks: []
+	Rank: Beginner
+	Pet: []
+	Weapon: []
+	Last Updated on: (not opened)
+-----------------------------
