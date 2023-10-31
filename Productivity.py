@@ -5,6 +5,9 @@ import random
                     
 # Methods
 def main():
+    Accountsfilepath = "Pivit\ProductivityAccounts.txt"
+    UsersDatafilepath = "Pivit\ProductivityUsersData.txt"
+    
     class Productivity:
         def __init__(self, unm, nm, lvl, exp, mp, cns, achm, tsk, rnk, pt, wpn, up):
             self.username = unm
@@ -346,7 +349,7 @@ def main():
             save()
                                    
     def save():
-        with open("Projects\Intermediate_Projects\Pivit\ProductivityUsersData.txt", "w") as f:
+        with open(UsersDatafilepath, "w") as f:
             f.write(f"\nLast saved on: {time.asctime()}\n-----------------------------")
             for i in USERSDATA:
                 y = f"\n{i.username}\n\tName: {i.name}\n\tLevel: {i.level}\n\tExperience: {i.experience}\n\tMotivation Points: {i.mpoints}\n\tCoins: {i.coins}\n\tAchievements: {i.achievement}\n\tTasks: {i.tasks}\n\tRank: {i.rank}\n\tPet: {i.pet}\n\tWeapon: {i.weapon}\n\tLast Updated on: {i.updated}\n-----------------------------"
@@ -385,13 +388,13 @@ def main():
                     tries = 5
             PASSWORD = input("Password: ")
         if (PASSWORD == ACCOUNTS.get(USERNAME)):
-            with open("Projects\Intermediate_Projects\Pivit\ProductivityAccounts.txt") as f:
+            with open(Accountsfilepath) as f:
                 content = f.read().split("-----------------------------")
                 content.remove("")
                 x = content[0].splitlines()
                 x[0] = f"Active Account: {USERNAME}"
                 content[0] = f"\n{x[0]}\n"
-            with open("Projects\Intermediate_Projects\Pivit\ProductivityAccounts.txt", "w") as f:
+            with open(Accountsfilepath, "w") as f:
                 x = "-----------------------------".join(content)
                 f.write(f"{x}-----------------------------")
             AC = ""
@@ -422,17 +425,17 @@ def main():
             Password = input("Password: ")
             x = input("Enter password again: ")
         
-        with open("Projects\Intermediate_Projects\Pivit\ProductivityUsersData.txt") as f:
+        with open(UsersDatafilepath) as f:
             content = f.readlines()
             content.append(f"\n{UserName}\n\tName: {Name}\n\tLevel: 1\n\tExperience: 500\n\tMotivation Points: 80\n\tCoins: 100\n\tAchievements: []\n\tTasks: []\n\tRank: Beginner\n\tPet: []\n\tWeapon: []\n\tLast Updated on: (not opened)\n-----------------------------")
-        with open("Projects\Intermediate_Projects\Pivit\ProductivityUsersData.txt", "w") as f:
+        with open(UsersDatafilepath, "w") as f:
             for i in content:
                 f.write(i)
         
-        with open("Projects\Intermediate_Projects\Pivit\ProductivityAccounts.txt") as f:
+        with open(Accountsfilepath) as f:
             content = f.readlines()
             content.append(f"\nUsername: {UserName}\nPassword: {Password}\n-----------------------------")
-        with open("Projects\Intermediate_Projects\Pivit\ProductivityAccounts.txt", "w") as f:
+        with open(Accountsfilepath, "w") as f:
             for i in content:
                 f.write(i)
         
@@ -446,18 +449,18 @@ def main():
     def Signout():
         c = Filter(input("Are you sure to sign out of this account?(y/n): "), "Are you sure to sign out of this account?(y/n): ", ["y","n"])
         if c == "y":
-            with open("Projects\Intermediate_Projects\Pivit\ProductivityAccounts.txt") as f:
+            with open(Accountsfilepath) as f:
                 content = f.read().split("-----------------------------")
                 content.remove("")
                 x = content[0].splitlines()
                 x[0] = "Active Account: none"
                 content[0] = f"\n{x[0]}\n"
-            with open("Projects\Intermediate_Projects\Pivit\ProductivityAccounts.txt", "w") as f:
+            with open(Accountsfilepath, "w") as f:
                 x = "-----------------------------".join(content)
                 f.write(f"{x}-----------------------------")
             print("Account signed out. ")
     def Startup():
-        with open("Projects\Intermediate_Projects\Pivit\ProductivityUsersData.txt") as f:
+        with open(UsersDatafilepath) as f:
             content = f.read().split("-----------------------------")
             content.remove("")
         for i in content:
@@ -483,7 +486,7 @@ def main():
             USERNAMES.append(unm)
             USERSDATA.append(Productivity(unm, nm, lvl, exp, mp, cns, achm, tsk, rnk, pt, wpn, up))
 
-        with open("Projects\Intermediate_Projects\Pivit\ProductivityAccounts.txt") as f:
+        with open(Accountsfilepath) as f:
             content = f.read().split("-----------------------------")
             content.remove("")
         for i in content:
@@ -541,7 +544,7 @@ def main():
 
     while True:
         left = False
-        with open("Projects\Intermediate_Projects\Pivit\ProductivityAccounts.txt") as f:
+        with open(Accountsfilepath) as f:
             content = f.read().split("-----------------------------")
             content.remove("")
         active_user = content[0].splitlines()[1].split(": ")[1]
