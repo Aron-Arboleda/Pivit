@@ -15,7 +15,7 @@ The program allows users to gamify their productivity by creating to-do lists as
 
 ## Instructions
 ### To use the program
-* I recommend pulling the repository on your client (vs code as recommended) and running it on the terminal.
+* I recommend pulling the repository on your client (vs code as recommended) and running it on the terminal. To properly run on the terminal, first download all the extensions and programs needed to run python files on vs code then find the "Run Python File" somewhere in vs code and run it with that.
 ### How to use the program
 * Making an account is compulsory, add a username and a password and proceed. 
 * There are instructions on every level of the command so just do /commands to show them. 
