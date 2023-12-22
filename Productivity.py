@@ -5,8 +5,8 @@ import random
                     
 # Methods
 def main():
-    Accountsfilepath = "Pivit\ProductivityAccounts.txt"
-    UsersDatafilepath = "Pivit\ProductivityUsersData.txt"
+    Accountsfilepath = "ProductivityAccounts.txt"
+    UsersDatafilepath = "ProductivityUsersData.txt"
     
     class Productivity:
         def __init__(self, unm, nm, lvl, exp, mp, cns, achm, tsk, rnk, pt, wpn, up):
