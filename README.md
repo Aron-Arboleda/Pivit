@@ -37,3 +37,5 @@ The program allows users to gamify their productivity by creating to-do lists as
 
 ### Updating a Quest
 <img src='Pivit_update.png'>
+
+<br>&copy; 2023 Aron-Arboleda. All rights reserved.
